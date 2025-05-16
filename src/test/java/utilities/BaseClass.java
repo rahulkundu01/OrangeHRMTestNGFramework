@@ -27,7 +27,9 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import pageClasses.OrangeHRM_AddEmployee;
 import pageClasses.OrangeHRM_LoginPage;
+import pageClasses.OrangeHRM_LogoutPage;
 import testClasses.OrangeHRM_AddEmployeeTest;
+import testClasses.OrangeHRM_LoginTest;
 import utilities.FetchDataFromProperty;
 
 public class BaseClass {
@@ -38,7 +40,9 @@ public class BaseClass {
 	public static ExtentReports reports;
 	public static ExtentTest test;
 	public OrangeHRM_LoginPage lp1;
+	public OrangeHRM_LoginTest lt1;
 	public OrangeHRM_AddEmployee ae1;
+	public OrangeHRM_LogoutPage lp2;
 	
 	
     @BeforeSuite(alwaysRun = true)

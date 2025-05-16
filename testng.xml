@@ -5,6 +5,7 @@
     <classes>
       <class name="testClasses.OrangeHRM_LoginTest"/>
       <class name="testClasses.OrangeHRM_AddEmployeeTest"/>
+      <class name="testClasses.OrangeHRM_LogoutTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
